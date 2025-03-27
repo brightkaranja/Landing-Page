@@ -12,21 +12,32 @@
 .nav{
     padding: 1cm;
     word-spacing: 0.5cm;
-    /* text-decoration: none; */
-    color: black;
+    /* justify-content: space-between; */
+    /* color: black; */
    text-align: center;
+}
+#download_img{
+    width: 18cm;
 }
 .login{
     display: flex;
-    gap: 3cm;
+    gap: 0.5cm;
+    /* gap: 0.4cm; */
     margin-left: 38cm;
     margin-top: -1.5cm;
+    
 }
 .diti_io_in_numbers{
     display: flex;
     gap: 3cm;
     font-size: larger;
     padding: 3cm;
+}
+.setting{
+    display: flex;
+}
+.settings{
+    rotate: 25deg;
 }
 #join_button{
     width: 2cm;
@@ -73,12 +84,17 @@
 }
 .work_with{
     display: flex;
-    gap: 5cm;
+    gap: 3cm;
 }
 .easy_interface{
     border: solid 1px;
     border-color: plum;
     width: 8cm;
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    transform: rotate(10deg);
 }
 .improving{
     display:flex;
@@ -104,7 +120,7 @@
     text-align: center;
 }
 .about_product{
-    padding-left: 7cm;
+    padding-left: 2cm;
     padding-top: 2cm;
     text-align: center;
     font-size: x-large;
@@ -143,9 +159,9 @@
 }
 .businessmen{
     display: flex;
-    gap: 3cm;
+    gap: 2cm;
     font-size: large;
-    padding: 2cm;
+    padding: 1cm;
     width: 40cm;
     height: 12cm;
     background-color: aliceblue;
@@ -155,13 +171,13 @@
     border: solid;
     border-color: pink;
     border-radius: 5%;
-    width: 15cm;
+    width: 13cm;
     padding-left: 2cm;
     padding-top: 0.2cm;
 }
 .download{
     display: flex;
-    margin: 3cm;
+    /* margin: 3cm; */
     gap: 2cm;
     background-color: aliceblue;
 }
@@ -179,7 +195,15 @@
 
 }
 .download_platforms{
-    font-size: xx-large;
+    font-size: 30px;
+}
+#dit_icon{
+    display: flex;
+    gap: 0.3cm;
+    font-size: x-large;
+}
+#dit_img{
+    margin-top: 0.7cm;
 }
 .footer_content{
     display: flex;
@@ -190,10 +214,11 @@
     font-size: large;
     padding: 4cm;
     
+    
 }
 .copyright{
     display: flex;
-    gap: 3cm;
+    gap: 15cm;
     background-color: black;
     color: white;
     /* height: 3cm; */
@@ -203,8 +228,72 @@
 
 
 @media screen and (max-width: 760px){
-    
+header{
+    display: block;
+    padding: 200px;
+    width: 100px;
+}
+body{
+    overflow: hidden;
+}
+.improving{
+    display: block;
+    width: 100%;
+    padding: 250px;
+}
+.logos{
+    display: block;
+    width: 100%;
+    padding: 200px;
+}
+.work_with{
+    display: block;
+    padding: 200px;
+}
+.easy_interface{
+    width: 500px;
+}
+.secured_transfers{
+    width: 500px;
+}
+.support{
+    width: 500px;
+}
+.diti_io_in_numbers{
+    display: block;
+    width: 350%;
+}
+.mobile_interface{
+    display: block;
+    width: 200%;
+}
+.businessmen{
+    display: block;
+    width: 200%;
+}
+.download{
+    display: block;
+    padding-left: 100px;/
+    width: 200%;
+}
+.download_platforms{
+    padding: 100px;
+}
+.footer{
+    display: block;
+    width: 450%;
+}
+.copyright{
+    padding-right: 30px;
+}
+.footer_content{
+    display: grid;
+}
+.settings{
+    width: 60%;
+}
+.form{
+    width: 60%;
+}
 }
     
-
-
